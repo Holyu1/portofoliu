@@ -1,9 +1,13 @@
 def ex_3(d):
-    d1={}
     for i in sorted(d.keys(),reverse=True):
-        d1[i]=d[i]
+        aux=d[i]
+        del d[i]
+        d[i]=aux
 d = dict()
 n=int(input())
 for i in range(n):
-    l=input().split()
-    d[l[0]]=l[1]
+    key=input()
+    value=input()
+    d[key]=value
+ex_3(d)
+print(d)
