@@ -7,26 +7,24 @@ Write your code in this editor and press "Run" button to compile and execute it.
 *******************************************************************************/
 
 #include <iostream>
-#include <cmath>
+#include <algorithm>
+#include <vector>
 using namespace std;
 int main()
 {
     int n,sortat=0,aux;
     cin >> n;
-    int x[n],i;
-    for (i=0;i<n;i++)
-        cin >> x[i];
-    while (sortat == 0) {
-        sortat = 1;
-        for (i=0;i<=n-2;i++)
-            if (x[i] > x[i+1]) {
-                aux=x[i];
-                x[i]=x[i+1];
-                x[i+1]=aux;
-                sortat=0;
-            }
-    }
+    int i;
+    vector <int> x;
     for (i=0;i<n;i++) {
+        int y;
+        cin >> y;
+        x.push_back(y);
+    }
+    sort(x.begin(),x.end(), [&](int a, int b) {
+        return a<b;
+    });
+    for (i = 0; i <= n-1; i++) {
         cout << x[i] << " ";
     }
 

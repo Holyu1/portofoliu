@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/python/STEPIK_GENERATORS_EXERCITII" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/python/python" vcs="Git" />
   </component>
 </project>

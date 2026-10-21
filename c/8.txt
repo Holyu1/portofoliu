@@ -1,0 +1,3 @@
+Cod Cant Nume Pret
+90  0    sop  2.50
+4   0    sad  1.50

@@ -1,0 +1,10 @@
+Cod Cant Nume Pret IS
+3   2    asd  3.20 1 
+1   4    asdp 3.50 0 
+2   3    asdx 3.50 1 
+4   0    asdx 3.20 1 
+5   0    sad  3.60 1 
+6   9    asdo 3.20 0 
+7   3    oip  3.56 0 
+8   1    kok  3.50 1 
+9   0    qasd 3.20 1 
